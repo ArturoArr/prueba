@@ -1,0 +1,34 @@
+apiVersion: backstage.io/v1alpha1
+kind: Template
+metadata:
+  name: es-una-prueba
+  title: Es una prueba
+  description: veamos si funciona 
+  tags:
+    - xd 1
+    - xd 2
+    - xd 3
+spec:
+  owner: web@example.com
+  templater: cra
+  type: website
+  path: '.'
+  
+  schema:
+    required: 
+      - component_id
+      - use_typescript
+    properties:
+      component_id:
+        title: Name
+        type: string
+        description: nombre unico del componente. Usa minisculas
+      description:
+        title: Description
+        type: string
+        description: da una pequeña descripcion
+      use_typescript:
+        title:  usa typescript
+        type: boolean
+        description: incluir typescript
+        default: false
