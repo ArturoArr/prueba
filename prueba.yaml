@@ -5,9 +5,9 @@ metadata:
   title: Es una prueba
   description: veamos si funciona 
   tags:
-    - xd 1
-    - xd 2
-    - xd 3
+    - loquesea
+    - loqueseados
+    - loqueseatres
 spec:
   owner: web@example.com
   templater: cra
