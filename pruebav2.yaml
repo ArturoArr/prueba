@@ -1,13 +1,13 @@
 apiVersion: backstage.io/v1alpha1
 kind: Template
 metadata:
-  name: es-una-prueba
-  title: Es una prueba
-  description: veamos si funciona 
+  name: nueva-prueba
+  title: Nueva Prueba
+  description: veamos si funciona xd 
   tags:
-    - loquesea
-    - loqueseados
-    - loqueseatres
+    - js
+    - awx
+    - terraform
 spec:
   owner: web@example.com
   templater: cra
@@ -17,18 +17,18 @@ spec:
   schema:
     required: 
       - component_id
-      - use_typescript
+      - use_jenkins
     properties:
       component_id:
-        title: Name
+        title: Name of job
         type: string
         description: nombre unico del componente. Usa minisculas
       description:
         title: Description
         type: string
         description: da una pequeña descripcion
-      use_typescript:
-        title:  usa typescript
+      use_jenkins:
+        title:  usa jenkins
         type: boolean
-        description: incluir typescript
-        default: false
+        description: incluir jenkins
+        default: true
