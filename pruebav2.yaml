@@ -30,5 +30,5 @@ spec:
       use_jenkins:
         title:  usa jenkins
         type: boolean
-        description: incluir jenkins
+        description: incluir jenkinsfile
         default: true
